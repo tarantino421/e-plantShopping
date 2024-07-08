@@ -250,3 +250,52 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    width: auto;
+    justify-content: center;
+    padding: 4rem;
+}
+ h2{
+    text-align: center;
+    margin-top: 3rem;
+ }
+.plant-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.plant-card img {
+    width: 100%;
+    height: auto;
+}
+
+.plant-card h3 {
+    margin: 10px 0;
+}
+
+.plant-card p {
+    margin: 5px 0;
+}
+
+.plant-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.plant-card button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
